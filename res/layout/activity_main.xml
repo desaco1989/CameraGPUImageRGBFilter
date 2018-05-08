@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:textColor="#0000ff"
+        android:id="@+id/before_l_camare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="跳到 5.0之前的Camera" />
+
+    <Button
+        android:textColor="#0000ff"
+        android:id="@+id/after_l_camare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="跳到 5.0之后的Camera" />
+	<Button
+	    android:textColor="#0000ff"
+        android:id="@+id/image_filter_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="9种图片的滤镜效果" />
+	<Button
+	    android:textColor="#0000ff"
+        android:id="@+id/gpu_image_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="71种Gpu处理的滤镜效果" />
+	<Button
+	    android:textColor="#0000ff"
+        android:id="@+id/imagefilter_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="99种滤镜效果" />
+	
+	<Button
+	    android:textColor="#0000ff"
+        android:id="@+id/stitchpic_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="图片拼接效果" />
+	
+	<Button
+	    android:visibility="gone"
+	    android:textColor="#0000ff"
+        android:id="@+id/sobel_img_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Sobel图片边缘提取" />
+	
+	<Button
+	    android:textColor="#0000ff"
+        android:id="@+id/image_specialeffects_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="图像/特效处理,濾鏡" />
+	
+</LinearLayout>

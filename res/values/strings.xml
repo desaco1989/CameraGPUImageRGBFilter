@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DesacoCarryBeauty</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="saturation">饱和度</string>
+    <string name="contrast">色相</string>
+    <string name="lightness">亮度</string>
+    
+</resources>
